@@ -1,5 +1,5 @@
 'use strict';
-const mysql = require('mysql');
+const mysql = require('mysql2');
 //local mysql db connection
 const dbConn = mysql.createConnection({
     host: '13.60.189.240',
